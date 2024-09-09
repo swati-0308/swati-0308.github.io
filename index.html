@@ -13,10 +13,18 @@
             background-color: #f4f4f4;
         }
         header {
-            background-color: #333;
+            background-color: black;
             color: #fff;
             padding: 20px 0;
             text-align: center;
+        }
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: relative;
+            top: 10px;
+            left: 10px;
         }
         header nav ul {
             list-style: none;
@@ -37,14 +45,16 @@
             overflow: hidden;
         }
         section {
-            padding: 20px 0;
-            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: lightgrey;
             margin-bottom: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         h2 {
             color: #333;
+            margin: 0px;
         }
         p {
             color: #555;
@@ -53,7 +63,7 @@
             margin-bottom: 20px;
         }
         footer {
-            background-color: #333;
+            background-color: black;
             color: #fff;
             text-align: center;
             padding: 10px 0;
@@ -64,6 +74,7 @@
 <body>
     <header>
         <div class="container">
+            <img src="assets/swati.jpeg" alt="Portfolio Image">
             <h1>Welcome to My Portfolio</h1>
             <nav>
                 <ul>
@@ -82,10 +93,10 @@
         </section>
 
         <section id="projects">
-            <h2>My Projects</h2>
+            <h2>Projects</h2>
             <div class="project">
                 <h3>Project 1: Net Banking</h3>
-                <p>This Java project works similar to a net banking platform. I used Netbeans IDE for development.</p>
+                <p>Java project that works similar to a net banking platform. Used Netbeans IDE for development.</p>
             </div>
             <div class="project">
                 <h3>Project 2: Date Parser</h3>
